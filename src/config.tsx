@@ -1,4 +1,4 @@
 export const contractAddress =
-  'erd1qqqqqqqqqqqqqpgquvt728n40ssd8n2qns9jrlqpwq2jc4rj4cysfuj3ad';
+  'erd1qh2m98dfkwyn4alps085a84x6pw04gar54fzna7c7frj7x9hpu3sd205vr';
 
-export const dAppName = 'example Dapp';
+export const dAppName = 'NaaQ';

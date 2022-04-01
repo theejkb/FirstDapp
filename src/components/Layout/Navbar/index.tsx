@@ -34,6 +34,17 @@ const Navbar = () => {
               </button>
             </NavItem>
           )}
+          {!isLoggedIn && (
+            <NavItem>
+              <Link
+                to={routeNames.unlock}
+                className='btn btn-primary mt-3 text-white'
+                data-testid='loginBtn'
+              >
+                Login
+              </Link>
+            </NavItem>
+          )}
         </Nav>
       </div>
     </BsNavbar>
